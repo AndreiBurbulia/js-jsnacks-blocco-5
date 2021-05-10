@@ -36,7 +36,15 @@ function intervalOfArray(array, min, max) {
 
 var array = [0, 1, 2, 3, 4, 5];
 var numeroPiccolo = 1;
-var numeroGrande = 4;
+var numeroGrande = 2;
 
 var prova = intervalOfArray(array, numeroPiccolo, numeroGrande);
 console.log(prova);
+
+/*
+
+//Con il metodo slice --> il margine superiore e escluso, quindi se metto 6 sara la posizione 5 dell'array
+var prova2 = array.slice(numeroPiccolo, numeroGrande);
+console.log(prova2);
+
+*/
